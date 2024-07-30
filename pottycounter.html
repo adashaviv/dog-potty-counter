@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+        
+    </head>
+
+    <body>
+        <div class="counter">
+            <h1>Did my dog go potty?</h1>
+            <h2>On this walk, your dog went...</h2>
+            <h2>💧: <span id="count-pee">0</span></h2>
+            <h2>💩: <span id="count-poo">0</span></h2>
+
+            <div class="main-buttons">
+                <button id="btn-pee" onclick="logPee()">💧</button>
+                <button id="btn-poo" onclick="logPoo()">💩</button>
+            </div>
+
+            <button id="btn-save" onclick="logWalk()">Log walk</button>
+
+        </div>
+
+        <div class="log">
+
+            <p>Today's walks</p>
+            <p id="walk-log"></p>
+
+        
+        </div>
+
+            <script src="main.js"></script>
+    </body>
+</html>

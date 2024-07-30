@@ -1,0 +1,76 @@
+
+body {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(lavender, skyblue)
+
+
+}
+.counter {
+    background: url("./images/toby-poop.jpg");
+    background-size: contain;
+    width: 500px;
+    height: 600px;
+    padding: 50px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    
+}
+
+h1 {
+    color: white;
+    font-size: 36px;
+    text-shadow: 0 0 1px #000000;
+}
+
+h2 {
+    color: white;
+    font-size: 48px;
+    text-shadow: 0 0 1px #ffffff;
+}
+
+#btn-pee {
+    width: 100px;
+    height: 50px;
+    background: lavender;
+    font-size: 28px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 15px;
+}
+
+#btn-poo {
+    width: 100px;
+    height: 50px;
+    background: lavender;
+    font-size: 28px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 15px;
+}
+
+#btn-save {
+    width: 100px;
+    height: 50px;
+    background: skyblue;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px 15px;
+}
+
+.log {
+    background: lavender;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 20px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+#walk-log {
+    white-space: "pre";
+}
